@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(50, 50, 50);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Reusable classes */
+.list-inline {
+  display: inline;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Navbar */
+.nav-item {
+  padding: 5px 15px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 2px 1px rgb(50, 50, 50);
+}
+
+.navbar {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* banner */
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.banner {
+  background-image: url('images/pexels-simon-migaj-747964\ \(1\).jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.text-banner {
+  position: absolute;
+  bottom: 15%;
+}
+
+.banner h1 {
+  font-size: 350%;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(50, 50, 50);
+  margin-bottom: 0;
+  letter-spacing: 3px;
+}
+
+.banner p {
+  font-size: 120%;
+  color: white;
+  line-height: 30px;
+}
+
