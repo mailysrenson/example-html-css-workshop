@@ -67,7 +67,12 @@ h1, h2, h3, h4, h5 {
 
 /* Navbar */
 .nav-item {
-  padding: 5px 15px;
+  padding: 5px 25px;
+  display: inline;
+}
+
+.nav-item a {
+  text-decoration: none;
   font-weight: bolder;
   color: white;
   text-shadow: 1px 2px 1px rgb(50, 50, 50);
@@ -111,3 +116,38 @@ h1, h2, h3, h4, h5 {
   line-height: 30px;
 }
 
+/* 3 cards */
+.main-text {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.keys-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 0;
+}
+
+.key-card {
+  text-align: center;
+  padding: 10px 50px;
+}
+
+/* Third part */ 
+.big-card-container {
+  background-color: #CFD7D2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-card {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.big-card img {
+  height: 300px;
+  width: 300px;
+}
