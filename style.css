@@ -133,21 +133,22 @@ h1, h2, h3, h4, h5 {
   padding: 10px 50px;
 }
 
-/* Third part */ 
-.big-card-container {
+/* About us*/ 
+.about-us-container {
   background-color: #CFD7D2;
-  display: flex;
-  flex-direction: column;
+}
+.about-us-grid {
+  display: flex; 
   justify-content: center;
+  align-items: center;
 }
 
-.big-card {
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+#about-us-img{
+  height: 60vh;
 }
 
-.big-card img {
-  height: 300px;
-  width: 300px;
+#about-us-text {
+  width: 25vw;
+  padding-left: 50px;
 }
+
